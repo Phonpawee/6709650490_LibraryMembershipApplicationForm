@@ -1,0 +1,57 @@
+html, body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.gamja-flower-regular {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .itim-regular {
+    font-family: "Itim", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+header {
+    background-color: #F3AA60;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    width: 130px;
+    margin: 0px;
+    padding: 15px;
+}
+
+.manu {
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    text-decoration: none;
+    color: #584B42;
+    display: inline-block;
+}
+ul li {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+    margin: 20px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #584B42;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: white;
+}
