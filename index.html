@@ -24,7 +24,87 @@
         </ul>
     </header>
     <main>
-
+        <p class="topic">Library Membership</p>
+        <p class="questions">ชื่อ - สกุล</p>
+        <dd>
+            <form>
+                <p>ภาษาไทย*<br>
+                    <input type="text" name="ภาษาไทย" size="30" maxlength="50" required />
+                </p>
+                <p>English*<br>
+                    <input type="text" name="English" size="30" maxlength="50" required />
+                </p>
+            </form>
+        </dd>
+        <p class="questions">เพศ*</p>
+        <dd>
+            <form><p>
+                <input type="radio" name="เพศ" value="ชาย" required /> ชาย
+                <input type="radio" name="เพศ" value="หญิง" required/> หญิง
+                <input type="radio" name="เพศ" value="อื่นๆ" required /> อื่นๆ
+            </form></p>
+        </dd>
+        <p class="questions">วัน/เดือน/ปี เกิด*</p>
+        <dd>
+            <form>
+                <p>
+                    <input type="date" name="วัน/เดือน/ปี เกิด" required />
+                </p>
+            </form>
+        </dd>
+        <p class="questions">ที่อยู่อีเมล (E-mail Address)*</p>
+        <dd>
+            <form>
+                <p>
+                    <input type="email" name="email" size="30" maxlength="60" required />
+                </p>
+            </form>
+        </dd>
+        <p class="questions">รหัสนักศึกษา*</p>
+        <dd>
+            <form>
+                <p>
+                    <input type="text" name="รหัสนักศึกษา" size="30" maxlength="50" required />
+                </p>
+            </form>
+        </dd>
+        <p class="questions">คณะที่ศึกษา*</p>
+        <dd>
+            <form>
+                <p>
+                    <select name="คณะ" required>
+                        <option value="คณะ">คณะ---</option>
+                        <option value="คณะนิติศาสตร์">คณะนิติศาสตร์</option>
+                        <option value="คณะพาณิชยศาสตร์และการบัญชี">คณะพาณิชยศาสตร์และการบัญชี</option>
+                        <option value="คณะรัฐศาสตร์">คณะรัฐศาสตร์</option>
+                        <option value="คณะเศรษฐศาสตร์">คณะเศรษฐศาสตร์</option>
+                        <option value="คณะสังคมสงเคราะห์ศาสตร์">คณะสังคมสงเคราะห์ศาสตร์</option>
+                        <option value="คณะสังคมวิทยาและมานุษยวิทยา">คณะสังคมวิทยาและมานุษยวิทยา</option>
+                        <option value="คณะศิลปศาสตร์">คณะศิลปศาสตร์</option>
+                        <option value="คณะวารสารศาสตร์และสื่อสารมวลชน">คณะวารสารศาสตร์และสื่อสารมวลชน</option>
+                        <option value="คณะวิทยาศาสตร์และเทคโนโลยี">คณะวิทยาศาสตร์และเทคโนโลยี</option>
+                        <option value="คณะวิศวกรรมศาสตร์">คณะวิศวกรรมศาสตร์</option>
+                        <option value="คณะสถาปัตยกรรมศาสตร์และการผังเมือง">คณะสถาปัตยกรรมศาสตร์และการผังเมือง</option>
+                        <option value="คณะศิลปกรรมศาสตร์">คณะศิลปกรรมศาสตร์</option>
+                        <option value="คณะแพทยศาสตร์">คณะแพทยศาสตร์</option>
+                        <option value="คณะสหเวชศาสตร์">คณะสหเวชศาสตร์</option>
+                        <option value="คณะทันตแพทยศาสตร์">คณะทันตแพทยศาสตร์</option>
+                        <option value="คณะพยาบาลศาสตร์">คณะพยาบาลศาสตร์</option>
+                        <option value="คณะสาธารณสุขศาสตร์">คณะสาธารณสุขศาสตร์</option>
+                        <option value="คณะเภสัชศาสตร์">คณะเภสัชศาสตร์</option>
+                        <option value="คณะวิทยาการเรียนรู้และศึกษาศาสตร์">คณะวิทยาการเรียนรู้และศึกษาศาสตร์</option>
+                        <option value="วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์">วิทยาลัยพัฒนศาสตร์ ป๋วย อึ๊งภากรณ์</option>
+                        <option value="วิทยาลัยนวัตกรรม">วิทยาลัยนวัตกรรม</option>
+                        <option value="วิทยาลัยสหวิทยาการ">วิทยาลัยสหวิทยาการ</option>
+                        <option value="วิทยาลัยโลกคดีศึกษา">วิทยาลัยโลกคดีศึกษา</option>
+                        <option value="สถาบันเทคโนโลยีนานาชาติสิรินธร">สถาบันเทคโนโลยีนานาชาติสิรินธร</option>
+                        <option value="วิทยาลัยนานาชาติ ปรีดี พนมยงค์">วิทยาลัยนานาชาติ ปรีดี พนมยงค์</option>
+                        <option value="วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์">วิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์</option>
+                    </select>
+                </p>
+            </form>
+        </dd>
+        <p><input type="submit" name="submit" value="Submit"/></p>
     </main>
 </body>
 
