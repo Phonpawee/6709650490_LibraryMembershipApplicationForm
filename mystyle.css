@@ -83,6 +83,19 @@ p {
     font-size: 22px;
 }
 
+input[type=checkbox] {
+    cursor: pointer;
+    margin: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+
 input[type=submit] {
     background-color: #537D91;
     border: none;

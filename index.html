@@ -38,11 +38,13 @@
         </dd>
         <p class="questions">เพศ*</p>
         <dd>
-            <form><p>
-                <input type="radio" name="เพศ" value="ชาย" required /> ชาย
-                <input type="radio" name="เพศ" value="หญิง" required/> หญิง
-                <input type="radio" name="เพศ" value="อื่นๆ" required /> อื่นๆ
-            </form></p>
+            <form>
+                <p>
+                    <input type="radio" name="เพศ" value="ชาย" required /> ชาย
+                    <input type="radio" name="เพศ" value="หญิง" required /> หญิง
+                    <input type="radio" name="เพศ" value="อื่นๆ" required /> อื่นๆ
+                </p>
+            </form>
         </dd>
         <p class="questions">วัน/เดือน/ปี เกิด*</p>
         <dd>
@@ -104,7 +106,50 @@
                 </p>
             </form>
         </dd>
-        <p><input type="submit" name="submit" value="Submit"/></p>
+        <p class="questions">ประเภทของหนังสือที่สนใจ*</p>
+        <dd>
+            <form required>
+                <div class="box">
+                    <p>
+                        <input type="checkbox" name="ประเภท" value="นิยาย" />นิยาย
+                        <input type="checkbox" name="ประเภท" value="หนังสือวาย ยูริ" />หนังสือวาย ยูริ
+                        <input type="checkbox" name="ประเภท" value="นิยายแปล" />นิยายแปล
+                        <input type="checkbox" name="ประเภท" value="วรรณกรรม" />วรรณกรรม
+                        <input type="checkbox" name="ประเภท" value="หนังสือบทความ สารคดี" />หนังสือบทความสารคดี<br>
+                        <input type="checkbox" name="ประเภท" value="หนังสือเตรียมสอบ แนวข้อสอบ" />
+                        หนังสือเตรียมสอบแนวข้อสอบ
+                        <input type="checkbox" name="ประเภท" value="การ์ตูน" /> การ์ตูน
+                        <input type="checkbox" name="ประเภท" value="หนังสือเด็ก" /> หนังสือเด็ก
+                        <input type="checkbox" name="ประเภท" value="แม่และเด็ก" /> แม่และเด็ก
+                        <input type="checkbox" name="ประเภท"
+                            value="จิตวิทยา การพัฒนาตัวเอง" />จิตวิทยาการพัฒนาตัวเอง<br>
+                        <input type="checkbox" name="ประเภท" value="สินค้าไลฟ์สไตล์" /> สินค้าไลฟ์สไตล์
+                        <input type="checkbox" name="ประเภท" value="บริหาร ธุรกิจ" /> บริหาร ธุรกิจ
+                        <input type="checkbox" name="ประเภท" value="คอมพิวเตอร์" /> คอมพิวเตอร์
+                        <input type="checkbox" name="ประเภท" value="หนังสือท่องเที่ยว" /> หนังสือท่องเที่ยว
+                        <input type="checkbox" name="ประเภท" value="ธรรมะ ศาสนา และปรัชญา" /> ธรรมะ ศาสนาและปรัชญา<br>
+                        <input type="checkbox" name="ประเภท" value="บ้านและสวน" /> บ้านและสวน
+                        <input type="checkbox" name="ประเภท" value="สุขภาพ ความงาม" /> สุขภาพ ความงาม
+                        <input type="checkbox" name="ประเภท" value="งานอดิเรก งานฝีมือ" /> งานอดิเรก งานฝีมือ
+                        <input type="checkbox" name="ประเภท" value="โหราศาสตร์ ดูดวง ฮวงจุ้ย" />โหราศาสตร์ดูดวงฮวงจุ้ย
+                        <input type="checkbox" name="ประเภท" value="หนังสือต่างประเทศ" /> หนังสือต่างประเทศ<br>
+                        <input type="checkbox" name="ประเภท" value="หนังสือพระราชนิพนธ์" /> หนังสือพระราชนิพนธ์
+                        <input type="checkbox" name="ประเภท" value="Magazine" /> Magazine
+                        <input type="checkbox" name="ประเภท" value="อื่นๆ" /> อื่นๆ
+                    </p>
+                </div>
+            </form>
+        </dd>
+        <p class="questions">ความต้องการรับข่าวสารข้อมูลของห้องสมุดทางอีเมลหรือไม่*</p>
+        <dd>
+            <form>
+                <p>
+                    <input type="radio" name="ข้อมูล" value="ใช่" required /> ใช่
+                    <input type="radio" name="ข้อมูล" value="ไม่" required /> ไม่
+                </p>
+            </form>
+        </dd>
+        <p><input type="submit" name="submit" value="Submit" /></p>
     </main>
 </body>
 
