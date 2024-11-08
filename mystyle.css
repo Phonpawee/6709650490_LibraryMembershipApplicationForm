@@ -107,3 +107,28 @@ input[type=submit] {
     font-family: "Itim", cursive;
     font-size: 20px;
   }
+
+  footer {
+    background-color: #537D91;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+h2 {
+    font-family: "Gamja Flower", sans-serif;
+    color: white;
+}
+
+.IG {
+    font-size: 18px;
+    font-family: "Gamja Flower", sans-serif;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+}
+
+.igpic {
+    width: 15px;
+}
